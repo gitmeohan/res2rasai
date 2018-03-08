@@ -1,44 +1,74 @@
 ## intent:greet
-	-hey
-	-hello
-	-Hi
-	-Hello there
-	-Hello Boss
-	-Good morning
-	-Good evening
-	-moin
-	-hey there
-	
+- hey
+- hello
+- hi
+- hello there
+- good morning
+- good evening
+- moin
+- hey there
+- let's go
+- hey dude
+- goodmorning
+- goodevening
+- good afternoon
+
 ## intent:goodbye
-	-cya
-	-cu
-	-good bye
-	-see you later
-	-bye
-	-bubye
-	-have a nice day
-	-see you around
+- cu
+- good by
+- cee you later
+- good night
+- good afternoon
+- bye
+- goodbye
+- have a nice day
+- see you around
+- bye bye
+- see you later
 
 ## intent:mood_affirm
-	-yes
-	-indeed
-	-correct
-	-of course
-	-that sounds good
-	
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+
 ## intent:mood_deny
-	-no
-	-nope
-	-never
-	-I don't think so
-	-don't like that
-	-no way
+- no
+- never
+- I don't think so
+- don't like that
+- no way
 
 ## intent:mood_great
-	-perfect
-	-good
-	-great
-	
+- perfect
+- very good
+- great
+- amazing
+- feeling like a king
+- wonderful
+- I am feeling very good
+- I am great
+- I am amazing
+- I am going to save the world
+- super
+- extremely good
+- so so perfect
+- so good
+- so perfect
+
 ## intent:mood_unhappy
-	-my day was horrible
-	-I am sad
+- my day was horrible
+- I am sad
+- I don't feel very well
+- I am disappointed
+- super sad
+- I'm so sad
+- sad
+- very sad
+- unhappy
+- not so good
+- not very good
+- extremly sad
+- so saad
+- so sad

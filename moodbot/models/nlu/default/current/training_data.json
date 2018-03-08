@@ -11,23 +11,19 @@
       },
       {
         "intent": "greet",
-        "text": "Hi"
+        "text": "hi"
       },
       {
         "intent": "greet",
-        "text": "Hello there"
+        "text": "hello there"
       },
       {
         "intent": "greet",
-        "text": "Hello Boss"
+        "text": "good morning"
       },
       {
         "intent": "greet",
-        "text": "Good morning"
-      },
-      {
-        "intent": "greet",
-        "text": "Good evening"
+        "text": "good evening"
       },
       {
         "intent": "greet",
@@ -38,8 +34,24 @@
         "text": "hey there"
       },
       {
-        "intent": "goodbye",
-        "text": "cya"
+        "intent": "greet",
+        "text": "let's go"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
       },
       {
         "intent": "goodbye",
@@ -47,11 +59,19 @@
       },
       {
         "intent": "goodbye",
-        "text": "good bye"
+        "text": "good by"
       },
       {
         "intent": "goodbye",
-        "text": "see you later"
+        "text": "cee you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good night"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good afternoon"
       },
       {
         "intent": "goodbye",
@@ -59,7 +79,7 @@
       },
       {
         "intent": "goodbye",
-        "text": "bubye"
+        "text": "goodbye"
       },
       {
         "intent": "goodbye",
@@ -68,6 +88,14 @@
       {
         "intent": "goodbye",
         "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
       },
       {
         "intent": "mood_affirm",
@@ -79,10 +107,6 @@
       },
       {
         "intent": "mood_affirm",
-        "text": "correct"
-      },
-      {
-        "intent": "mood_affirm",
         "text": "of course"
       },
       {
@@ -90,12 +114,12 @@
         "text": "that sounds good"
       },
       {
-        "intent": "mood_deny",
-        "text": "no"
+        "intent": "mood_affirm",
+        "text": "correct"
       },
       {
         "intent": "mood_deny",
-        "text": "nope"
+        "text": "no"
       },
       {
         "intent": "mood_deny",
@@ -119,11 +143,59 @@
       },
       {
         "intent": "mood_great",
-        "text": "good"
+        "text": "very good"
       },
       {
         "intent": "mood_great",
         "text": "great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "amazing"
+      },
+      {
+        "intent": "mood_great",
+        "text": "feeling like a king"
+      },
+      {
+        "intent": "mood_great",
+        "text": "wonderful"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am feeling very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am amazing"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am going to save the world"
+      },
+      {
+        "intent": "mood_great",
+        "text": "super"
+      },
+      {
+        "intent": "mood_great",
+        "text": "extremely good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "so so perfect"
+      },
+      {
+        "intent": "mood_great",
+        "text": "so good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "so perfect"
       },
       {
         "intent": "mood_unhappy",
@@ -132,6 +204,54 @@
       {
         "intent": "mood_unhappy",
         "text": "I am sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I don't feel very well"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I am disappointed"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "super sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I'm so sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "unhappy"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "not so good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "not very good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "extremly sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "so saad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "so sad"
       }
     ],
     "regex_features": [],
