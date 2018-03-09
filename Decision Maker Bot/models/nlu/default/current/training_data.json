@@ -1,0 +1,272 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "moin"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "let's go"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cu"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good by"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cee you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good night"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "ideology",
+        "text": "What is your aim?"
+      },
+      {
+        "intent": "ideology",
+        "text": "Who are you?"
+      },
+      {
+        "intent": "ideology",
+        "text": "What do you do?"
+      },
+      {
+        "intent": "ideology",
+        "text": "How do you do?"
+      },
+      {
+        "intent": "states",
+        "text": "what is a state?"
+      },
+      {
+        "intent": "states",
+        "text": "state"
+      },
+      {
+        "intent": "states",
+        "text": "what do you mean by state?"
+      },
+      {
+        "intent": "states",
+        "text": "tell me what is state?"
+      },
+      {
+        "intent": "states",
+        "text": "what to enter as a state?"
+      },
+      {
+        "intent": "actions",
+        "text": "what is an action choice?"
+      },
+      {
+        "intent": "actions",
+        "text": "actions"
+      },
+      {
+        "intent": "actions",
+        "text": "action choices"
+      },
+      {
+        "intent": "actions",
+        "text": "action choice"
+      },
+      {
+        "intent": "actions",
+        "text": "what do you mean by an action choice?"
+      },
+      {
+        "intent": "actions",
+        "text": "what do you mean by an action?"
+      },
+      {
+        "intent": "actions",
+        "text": "tell me what is an action?"
+      },
+      {
+        "intent": "actions",
+        "text": "what to enter as an action choice?"
+      },
+      {
+        "intent": "preferences",
+        "text": "what is a preference?"
+      },
+      {
+        "intent": "preferences",
+        "text": "preferences"
+      },
+      {
+        "intent": "preferences",
+        "text": "what do you mean by preference?"
+      },
+      {
+        "intent": "preferences",
+        "text": "tell me what is a preference?"
+      },
+      {
+        "intent": "preferences",
+        "text": "what to enter as a preference?"
+      },
+      {
+        "intent": "transitions",
+        "text": "what is a transition?"
+      },
+      {
+        "intent": "transitions",
+        "text": "transitions"
+      },
+      {
+        "intent": "transitions",
+        "text": "what do you mean by a transition?"
+      },
+      {
+        "intent": "transitions",
+        "text": "tell me what is a transition?"
+      },
+      {
+        "intent": "transitions",
+        "text": "what to enter as a transition?"
+      },
+      {
+        "intent": "symmetry",
+        "text": "what is a symmetry?"
+      },
+      {
+        "intent": "symmetry",
+        "text": "symmetries"
+      },
+      {
+        "intent": "symmetry",
+        "text": "what do you mean by a symmetry?"
+      },
+      {
+        "intent": "symmetry",
+        "text": "tell me what is symmetry?"
+      },
+      {
+        "intent": "symmetry",
+        "text": "what to expect as a symmetry?"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "got it"
+      },
+      {
+        "intent": "affirm",
+        "text": "thanks"
+      },
+      {
+        "intent": "affirm",
+        "text": "cool"
+      },
+      {
+        "intent": "affirm",
+        "text": "awesome"
+      },
+      {
+        "intent": "affirm",
+        "text": "oh"
+      },
+      {
+        "intent": "affirm",
+        "text": "nice"
+      },
+      {
+        "intent": "affirm",
+        "text": "good"
+      },
+      {
+        "intent": "affirm",
+        "text": "I'm good"
+      },
+      {
+        "intent": "affirm",
+        "text": "this is nice"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
