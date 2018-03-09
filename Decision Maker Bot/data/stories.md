@@ -1,27 +1,34 @@
-## happy path               <!-- name of the story - just for debugging -->
+## Wake up               <!-- name of the story - just for debugging -->
 * greet              
   - utter_greet
-* mood_great               <!-- user utterance, in format _intent[entities] -->
-  - utter_happy
+* affirm
+  - utter_affirm
 
-## sad path 1               <!-- this is already the start of the next story -->
-* greet
-  - utter_greet             <!-- action of the bot to execute -->
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* mood_affirm
-  - utter_happy
 
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* mood_deny
-  - utter_goodbye
-
+## Know Ideology               <!-- this is already the start of the next story -->
+* ideology
+  - utter_ideology             <!-- action of the bot to execute -->
+* affirm
+  - utter_affirm
+  
+## Know State
+* states
+  - utter_states
+* affirm
+  - utter_affirm
+  
+## Know Transition
+* transitions
+  - utter_transitions
+* affirm
+  - utter_affirm
+  
+## Know Action
+* actions
+  - utter_actions
+* affirm
+  - utter_affirm
+  
 ## say goodbye
 * goodbye
   - utter_goodbye

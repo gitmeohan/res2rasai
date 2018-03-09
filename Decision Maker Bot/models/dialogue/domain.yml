@@ -1,0 +1,74 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_ideology
+- utter_tiger_problem
+- utter_states
+- utter_actions
+- utter_transitions
+- utter_affirm
+- utter_goodbye
+actions:
+- utter_greet
+- utter_ideology
+- utter_tiger_problem
+- utter_states
+- utter_actions
+- utter_transitions
+- utter_affirm
+- utter_goodbye
+config:
+  store_entities_as_slots: true
+entities: []
+intents:
+- greet
+- goodbye
+- ideology
+- states
+- actions
+- transitions
+- affirm
+slots: {}
+templates:
+  utter_actions:
+  - text: 'Action-Choices are real world entities that operate on states and when
+      you perform a specific action, it may result in a state change which we call
+      as Transition of the problem. For Example: In the Tiger Problem, actions are
+      defined as : Open Left Door (OL),Open Right door (OR),and Listen growl (L).
+      Go ahead and input your actions in the following input box as comma separated
+      (For Example,OL,OR,L) and then click ''Done'''
+  utter_affirm:
+  - text: Good
+  - text: Perfect
+  utter_goodbye:
+  - text: text:"Bye"
+  utter_greet:
+  - text: Hey! How are you?
+  utter_ideology:
+  - text: 'I can suggest a rational strategy for your decision problem that humans
+      fail to take the right decision most of the times by thinking '
+  utter_states:
+  - text: 'State: Is a real world static outlook of a problem that is fixed and doesn''t
+      change by itself.For Example: In Tiger Problem the states are defined as :Tiger
+      on the left and Tiger on the right. Go ahead and input your states in the following
+      input box as comma separated'
+  utter_tiger_problem:
+  - text: Imagine you are standing in front of two closed doors. Behind one of the
+      doors is a tiger and behind the other is a large reward. If you open the door
+      with the tiger, then a large penalty is received (presumably in the form of
+      some amount of bodily injury). Instead of opening one of the two doors, you
+      can listen, in order to gain some information about the location of the tiger.
+      Unfortunately, listening is not free; in addition, it is also not entirely accurate.
+      There is a chance that you will hear a tiger behind the left-hand door when
+      the tiger is really behind the right-hand door, and vice versa
+  utter_transitions:
+  - text: 'Transition: can be thought of as a mathematical vector that has a direction
+      and magnitude. Direction can be thought of as going from one state to another
+      if you perform a specific action in one state. Example: In Tiger Problem, the
+      transitions are defined as : Tiger on the left (TL) to Tiger on the right (TR):
+      TL2TR if you perform action Open Left and Tiger on the right (TR):Open Left
+      (OL), Listen (L), thus we observe that if the Tiger is on the left then the
+      preferred action would be to open the right door and the next preferred action
+      would be to listen. Go ahead and select your transitions from the following.(For
+      Example:OL,L) and then click ''Done'''
+topics: []

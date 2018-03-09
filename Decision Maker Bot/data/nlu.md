@@ -27,29 +27,43 @@
 - see you later
 
 ## intent:ideology
-- understood?[ideology]
-- This is what I am[ideology]
-- That's the idea[ideology]
-- Rational behaviour is always better than Moral[ideology]
-- Nice[ideology]
+- What is your aim?
+- Who are you?
+- What do you do?
+- How do you do?
 
 ## intent:states
-- understood?[states]
-- This is what I am[states]
-- That's the idea[states]
-- Rational behaviour is always better than Moral[states]
-- Nice[states]
+- what is a state?
+- state
+- what do you mean by state?
+- tell me what is state?
+- what to enter as a state?
 
 ## intent:actions
-- understood?[actions]
-- This is what I am[actions]
-- That's the idea[actions]
-- Rational behaviour is always better than Moral[actions]
-- Nice[actions]
+- what is an action choice?
+- actions
+- action choices
+- action choice
+- what do you mean by an action choice?
+- what do you mean by an action?
+- tell me what is an action?
+- what to enter as an action choice?
 
 ## intent:transitions
-- understood?[transitions]
-- This is what I am[transitions]
-- That's the idea[transitions]
-- Rational behaviour is always better than Moral[transitions]
-- Nice[transitions]
+- what is a transition?
+- transitions
+- what do you mean by a transition?
+- tell me what is a transition?
+- what to enter as a transition?
+
+## intent:affirm
+- ok
+- got it
+- thanks
+- cool
+- awesome
+- oh
+- nice
+- good
+- I'm good
+- this is nice

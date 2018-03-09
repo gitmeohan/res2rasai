@@ -5,6 +5,7 @@ intents:
   - states
   - actions
   - transitions
+  - affirm
 
 actions:
 - utter_greet
@@ -13,6 +14,7 @@ actions:
 - utter_states
 - utter_actions
 - utter_transitions
+- utter_affirm
 - utter_goodbye
 
 templates:
@@ -31,6 +33,13 @@ templates:
   utter_actions:
   - text: "Action-Choices are real world entities that operate on states and when you perform a specific action, it may result in a state change which we call as Transition of the problem. For Example: In the Tiger Problem, actions are defined as : Open Left Door (OL),Open Right door (OR),and Listen growl (L). Go ahead and input your actions in the following input box as comma separated (For Example,OL,OR,L) and then click 'Done'"
   
-  utter transitions:
+  utter_transitions:
   - text: "Transition: can be thought of as a mathematical vector that has a direction and magnitude. Direction can be thought of as going from one state to another if you perform a specific action in one state. Example: In Tiger Problem, the transitions are defined as : Tiger on the left (TL) to Tiger on the right (TR): TL2TR if you perform action Open Left and Tiger on the right (TR):Open Left (OL), Listen (L), thus we observe that if the Tiger is on the left then the preferred action would be to open the right door and the next preferred action would be to listen. Go ahead and select your transitions from the following.(For Example:OL,L) and then click 'Done'"
+  
+  utter_affirm:
+  - text: "Good"
+  - text: "Perfect"
+  
+  utter_goodbye:
+  - text:"Bye"
   

@@ -1,0 +1,21 @@
+{
+  "features": [
+    "intent_greet",
+    "intent_goodbye",
+    "intent_ideology",
+    "intent_states",
+    "intent_actions",
+    "intent_transitions",
+    "intent_affirm",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_utter_ideology",
+    "prev_utter_tiger_problem",
+    "prev_utter_states",
+    "prev_utter_actions",
+    "prev_utter_transitions",
+    "prev_utter_affirm",
+    "prev_utter_goodbye"
+  ]
+}
