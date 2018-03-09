@@ -17,6 +17,18 @@
 * affirm
   - utter_affirm
   
+## State
+* states
+  - utter_states
+
+## Action
+* actions
+  - utter_actions
+
+## Transitions
+* transitions
+  - utter_transitions
+
 ## Know Transition
 * transitions
   - utter_transitions
