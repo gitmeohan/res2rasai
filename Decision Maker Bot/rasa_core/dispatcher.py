@@ -12,6 +12,9 @@ from typing import Text, List, Dict, Any
 from rasa_core.channels import OutputChannel
 from rasa_core.domain import Domain
 
+import speech_recognition as sr
+r=sr.Recognizer()
+
 logger = logging.getLogger(__name__)
 
 
