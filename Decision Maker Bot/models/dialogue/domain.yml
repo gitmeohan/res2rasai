@@ -5,7 +5,9 @@ action_names:
 - utter_tiger_problem
 - utter_states
 - utter_actions
+- utter_preferences
 - utter_transitions
+- utter_symmetry
 - utter_affirm
 - utter_goodbye
 actions:
@@ -14,7 +16,9 @@ actions:
 - utter_tiger_problem
 - utter_states
 - utter_actions
+- utter_preferences
 - utter_transitions
+- utter_symmetry
 - utter_affirm
 - utter_goodbye
 config:
@@ -26,7 +30,9 @@ intents:
 - ideology
 - states
 - actions
+- preferences
 - transitions
+- symmetry
 - affirm
 slots: {}
 templates:
@@ -47,11 +53,25 @@ templates:
   utter_ideology:
   - text: 'I can suggest a rational strategy for your decision problem that humans
       fail to take the right decision most of the times by thinking '
+  utter_preferences:
+  - text: 'Preference is a set of choices of actions for each state where the first
+      action in the preference set has the highest or equal priority over the next
+      action. There needs to be at least one preferred action to each state and any
+      state need not have all actions in it''s preference set. Example: In Tiger Problem,
+      the preferences are defined as : Tiger on the left (TL): Open Right (OR),Listen
+      (L) and Tiger on the right (TR):Open Left (OL), Listen (L), thus we observe
+      that if the Tiger is on the left then the preferred action would be to open
+      the right door and the next preferred action would be to listen. Go ahead and
+      input your preferences in the following input box as comma separated (For Example,OL,L)
+      and then click ''Done'''
   utter_states:
   - text: 'State: Is a real world static outlook of a problem that is fixed and doesn''t
       change by itself.For Example: In Tiger Problem the states are defined as :Tiger
       on the left and Tiger on the right. Go ahead and input your states in the following
       input box as comma separated'
+  utter_symmetry:
+  - text: Symmetry of Action-Choices is a simplification of Transitions that have
+      identical effect in the state space
   utter_tiger_problem:
   - text: Imagine you are standing in front of two closed doors. Behind one of the
       doors is a tiger and behind the other is a large reward. If you open the door

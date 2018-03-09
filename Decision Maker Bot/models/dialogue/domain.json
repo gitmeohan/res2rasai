@@ -5,7 +5,9 @@
     "intent_ideology",
     "intent_states",
     "intent_actions",
+    "intent_preferences",
     "intent_transitions",
+    "intent_symmetry",
     "intent_affirm",
     "prev_action_listen",
     "prev_action_restart",
@@ -14,7 +16,9 @@
     "prev_utter_tiger_problem",
     "prev_utter_states",
     "prev_utter_actions",
+    "prev_utter_preferences",
     "prev_utter_transitions",
+    "prev_utter_symmetry",
     "prev_utter_affirm",
     "prev_utter_goodbye"
   ]

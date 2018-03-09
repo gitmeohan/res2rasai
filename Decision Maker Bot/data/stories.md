@@ -21,25 +21,46 @@
 * states
   - utter_states
 
+## Know Action
+* actions
+  - utter_actions
+* affirm
+  - utter_affirm
+  
 ## Action
 * actions
   - utter_actions
 
-## Transitions
-* transitions
-  - utter_transitions
-
+## Know Preference
+* preferences
+  - utter_preferences
+* affirm
+  - utter_affirm
+  
+## Preference
+* preferences
+  - utter_preferences
+  
 ## Know Transition
 * transitions
   - utter_transitions
 * affirm
   - utter_affirm
   
-## Know Action
-* actions
-  - utter_actions
+## Transitions
+* transitions
+  - utter_transitions
+
+  
+## Know Symmetry
+* symmetry
+  - utter_transitions
 * affirm
   - utter_affirm
+  
+## Symmetry
+* symmetry
+  - utter_symmetry
   
 ## say goodbye
 * goodbye

@@ -49,12 +49,26 @@
 - tell me what is an action?
 - what to enter as an action choice?
 
+## intent:preferences
+- what is a preference?
+- preferences
+- what do you mean by preference?
+- tell me what is a preference?
+- what to enter as a preference?
+
 ## intent:transitions
 - what is a transition?
 - transitions
 - what do you mean by a transition?
 - tell me what is a transition?
 - what to enter as a transition?
+
+## intent:symmetry
+- what is a symmetry?
+- symmetries
+- what do you mean by a symmetry?
+- tell me what is symmetry?
+- what to expect as a symmetry?
 
 ## intent:affirm
 - ok

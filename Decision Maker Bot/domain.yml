@@ -4,7 +4,9 @@ intents:
   - ideology
   - states
   - actions
+  - preferences
   - transitions
+  - symmetry
   - affirm
 
 actions:
@@ -13,11 +15,20 @@ actions:
 - utter_tiger_problem
 - utter_states
 - utter_actions
+- utter_preferences
 - utter_transitions
+- utter_symmetry
 - utter_affirm
 - utter_goodbye
 
 templates:
+
+  utter_preferences:
+  - text: "Preference is a set of choices of actions for each state where the first action in the preference set has the highest or equal priority over the next action. There needs to be at least one preferred action to each state and any state need not have all actions in it's preference set. Example: In Tiger Problem, the preferences are defined as : Tiger on the left (TL): Open Right (OR),Listen (L) and Tiger on the right (TR):Open Left (OL), Listen (L), thus we observe that if the Tiger is on the left then the preferred action would be to open the right door and the next preferred action would be to listen. Go ahead and input your preferences in the following input box as comma separated (For Example,OL,L) and then click 'Done'"
+  
+  utter_symmetry:
+  - text: "Symmetry of Action-Choices is a simplification of Transitions that have identical effect in the state space"
+  
   utter_greet:
   - text: "Hey! How are you?"
   

@@ -166,6 +166,26 @@
         "text": "what to enter as an action choice?"
       },
       {
+        "intent": "preferences",
+        "text": "what is a preference?"
+      },
+      {
+        "intent": "preferences",
+        "text": "preferences"
+      },
+      {
+        "intent": "preferences",
+        "text": "what do you mean by preference?"
+      },
+      {
+        "intent": "preferences",
+        "text": "tell me what is a preference?"
+      },
+      {
+        "intent": "preferences",
+        "text": "what to enter as a preference?"
+      },
+      {
         "intent": "transitions",
         "text": "what is a transition?"
       },
@@ -184,6 +204,26 @@
       {
         "intent": "transitions",
         "text": "what to enter as a transition?"
+      },
+      {
+        "intent": "symmetry",
+        "text": "what is a symmetry?"
+      },
+      {
+        "intent": "symmetry",
+        "text": "symmetries"
+      },
+      {
+        "intent": "symmetry",
+        "text": "what do you mean by a symmetry?"
+      },
+      {
+        "intent": "symmetry",
+        "text": "tell me what is symmetry?"
+      },
+      {
+        "intent": "symmetry",
+        "text": "what to expect as a symmetry?"
       },
       {
         "intent": "affirm",
