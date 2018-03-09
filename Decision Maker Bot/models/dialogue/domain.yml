@@ -65,10 +65,10 @@ templates:
       input your preferences in the following input box as comma separated (For Example,OL,L)
       and then click ''Done'''
   utter_states:
-  - text: 'State: Is a real world static outlook of a problem that is fixed and doesn''t
-      change by itself.For Example: In Tiger Problem the states are defined as :Tiger
-      on the left and Tiger on the right. Go ahead and input your states in the following
-      input box as comma separated'
+  - text: 'State can be thought as a fixed situation at a given point of time and
+      it may change by performing an action.For Example: In Tiger Problem the states
+      are defined as :Tiger on the left and Tiger on the right. Go ahead and input
+      your states in the following input box as comma separated'
   utter_symmetry:
   - text: Symmetry of Action-Choices is a simplification of Transitions that have
       identical effect in the state space
