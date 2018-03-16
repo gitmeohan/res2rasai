@@ -23,7 +23,6 @@ from rasa_core.tracker_store import TrackerStore
 from rasa_core.trackers import DialogueStateTracker
 from rasa_core.version import __version__
 from rasa_nlu.server import check_cors, requires_auth
-
 logger = logging.getLogger(__name__)
 
 

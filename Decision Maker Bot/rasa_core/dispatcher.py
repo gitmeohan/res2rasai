@@ -12,8 +12,12 @@ from typing import Text, List, Dict, Any
 from rasa_core.channels import OutputChannel
 from rasa_core.domain import Domain
 
-import speech_recognition as sr
-r=sr.Recognizer()
+# import speech_recognition as sr
+# r=sr.Recognizer()
+
+# with sr.Microphone() as source:
+    # print("Say something!")
+    # audio = r.listen(source)
 
 logger = logging.getLogger(__name__)
 

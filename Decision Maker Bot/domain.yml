@@ -8,6 +8,8 @@ intents:
   - transitions
   - symmetry
   - affirm
+  
+action_factory: remote
 
 actions:
 - utter_greet
