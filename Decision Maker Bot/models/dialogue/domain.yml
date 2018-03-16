@@ -71,8 +71,8 @@ templates:
       are defined as :Tiger on the left and Tiger on the right. Go ahead and input
       your states in the following input box as comma separated'
   utter_symmetry:
-  - text: Symmetry of Action-Choices is a simplification of Transitions that have
-      identical effect in the state space
+  - text: Symmetric Action-Choice are those actions that have an identical effect
+      on the states of the problem.
   utter_tiger_problem:
   - text: Imagine you are standing in front of two closed doors. Behind one of the
       doors is a tiger and behind the other is a large reward. If you open the door
