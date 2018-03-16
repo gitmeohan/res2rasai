@@ -114,6 +114,18 @@
         "text": "How do you do?"
       },
       {
+        "intent": "tiger_problem",
+        "text": "what is tiger problem?"
+      },
+      {
+        "intent": "tiger_problem",
+        "text": "tiger problem"
+      },
+      {
+        "intent": "tiger_problem",
+        "text": "what do you mean by tiger problem?"
+      },
+      {
         "intent": "states",
         "text": "what is a state?"
       },

@@ -1,13 +1,14 @@
 intents:
   - greet
-  - goodbye
   - ideology
+  - tiger_problem
   - states
   - actions
   - preferences
   - transitions
   - symmetry
   - affirm
+  - goodbye
   
 action_factory: remote
 

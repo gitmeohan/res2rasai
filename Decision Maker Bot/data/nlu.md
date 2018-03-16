@@ -31,6 +31,10 @@
 - Who are you?
 - What do you do?
 - How do you do?
+## intent:tiger_problem
+- what is tiger problem?
+- tiger problem
+- what do you mean by tiger problem?
 
 ## intent:states
 - what is a state?

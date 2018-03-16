@@ -4,7 +4,6 @@
 * affirm
   - utter_affirm
 
-
 ## Know Ideology               <!-- this is already the start of the next story -->
 * ideology
   - utter_ideology             <!-- action of the bot to execute -->
@@ -51,6 +50,16 @@
 * transitions
   - utter_transitions
 
+## Know Tiger Problem
+* tiger_problem
+  - utter_tiger_problem
+* affirm
+  - utter_affirm
+  
+## Tiger Problem
+* tiger_problem
+  - utter_tiger_problem
+
   
 ## Know Symmetry
 * symmetry
@@ -65,3 +74,7 @@
 ## say goodbye
 * goodbye
   - utter_goodbye
+  
+## Affirm consent
+* affirm
+  - utter_affirm

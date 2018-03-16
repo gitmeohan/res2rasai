@@ -26,14 +26,15 @@ config:
 entities: []
 intents:
 - greet
-- goodbye
 - ideology
+- tiger_problem
 - states
 - actions
 - preferences
 - transitions
 - symmetry
 - affirm
+- goodbye
 slots: {}
 templates:
   utter_actions:

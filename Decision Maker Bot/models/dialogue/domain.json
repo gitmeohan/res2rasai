@@ -1,14 +1,15 @@
 {
   "features": [
     "intent_greet",
-    "intent_goodbye",
     "intent_ideology",
+    "intent_tiger_problem",
     "intent_states",
     "intent_actions",
     "intent_preferences",
     "intent_transitions",
     "intent_symmetry",
     "intent_affirm",
+    "intent_goodbye",
     "prev_action_listen",
     "prev_action_restart",
     "prev_utter_greet",

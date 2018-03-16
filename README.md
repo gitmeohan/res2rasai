@@ -6,6 +6,6 @@ python -m rasa_core.train -s data/stories.md -d domain.yml -o models/dialogue --
 
 python -m rasa_core.run -d models/dialogue -u models/nlu/default/current
 
-pip install pypiwin32
+pip install pypiwin32 //One-time
 
-python -m rasa_core.server -d models/dialogue -u models/nlu/default/current -o out.log
+python -m rasa_core.server -d models/dialogue -u models/nlu/default/current -o out.log --cors *
