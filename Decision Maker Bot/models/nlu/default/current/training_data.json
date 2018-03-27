@@ -238,6 +238,54 @@
         "text": "what to expect as a symmetry?"
       },
       {
+        "intent": "utter_chances",
+        "text": "what is a chance?"
+      },
+      {
+        "intent": "utter_chances",
+        "text": "chances"
+      },
+      {
+        "intent": "utter_chances",
+        "text": "What do you mean by chance of transition?"
+      },
+      {
+        "intent": "utter_chances",
+        "text": "tell me what is chance?"
+      },
+      {
+        "intent": "utter_chances",
+        "text": "How should I interpret chances"
+      },
+      {
+        "intent": "utter_chances",
+        "text": "What is the range of chance?"
+      },
+      {
+        "intent": "utter_observations",
+        "text": "what is an observation?"
+      },
+      {
+        "intent": "utter_observations",
+        "text": "what are observations?"
+      },
+      {
+        "intent": "utter_observations",
+        "text": "observations"
+      },
+      {
+        "intent": "utter_observations",
+        "text": "what do you mean by an observation?"
+      },
+      {
+        "intent": "utter_observations",
+        "text": "how do you get observation variables?"
+      },
+      {
+        "intent": "utter_observations",
+        "text": "observation-variables"
+      },
+      {
         "intent": "affirm",
         "text": "ok"
       },

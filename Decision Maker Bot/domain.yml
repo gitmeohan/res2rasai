@@ -7,9 +7,11 @@ intents:
   - preferences
   - transitions
   - symmetry
+  - chances
+  - observations
   - affirm
   - goodbye
-  
+
 action_factory: remote
 
 actions:
@@ -21,20 +23,22 @@ actions:
 - utter_preferences
 - utter_transitions
 - utter_symmetry
+- utter_chances
+- utter_observations
 - utter_affirm
 - utter_goodbye
 
 templates:
 
   utter_preferences:
-  - text: "Preference is a set of choices of actions for each state where the first action in the preference set has the highest or equal priority over the next action. There needs to be at least one preferred action to each state and any state need not have all actions in it's preference set. Example: In Tiger Problem, the preferences are defined as : Tiger on the left (TL): Open Right (OR),Listen (L) and Tiger on the right (TR):Open Left (OL), Listen (L), thus we observe that if the Tiger is on the left then the preferred action would be to open the right door and the next preferred action would be to listen. Go ahead and input your preferences in the following input box as comma separated (For Example,OL,L) and then click 'Done'"
-  
+  - text: "Preference is a set of choices of actions for each state where the first action in the preference set has the highest or equal priority over the next action. There needs to be at least one preferred action to each state and any state need not have all actions in it's preference set. Example: In Tiger Problem, the preferences are defined as : Tiger on the left (TL): Open Right (OR),Listen (L) and Tiger on the right (TR):Open Left (OL), Listen (L), thus we observe that if the Tiger is on the left then the preferred action would be to open the right door and the next preferred action would be to listen. Enter your preferences in the specified input box as comma separated (For Example- OL,L) and then click 'Done'"
+
   utter_symmetry:
   - text: "Symmetric Action-Choice are those actions that have an identical effect on the states of the problem."
-  
+
   utter_greet:
   - text: "Hey! How are you?"
-  
+
   utter_ideology:
   - text: "I can suggest a rational strategy for your decision problem that humans fail to take the right decision most of the times by thinking "
 
@@ -42,18 +46,24 @@ templates:
   - text: "Imagine you are standing in front of two closed doors. Behind one of the doors is a tiger and behind the other is a large reward. If you open the door with the tiger, then a large penalty is received (presumably in the form of some amount of bodily injury). Instead of opening one of the two doors, you can listen, in order to gain some information about the location of the tiger. Unfortunately, listening is not free; in addition, it is also not entirely accurate. There is a chance that you will hear a tiger behind the left-hand door when the tiger is really behind the right-hand door, and vice versa"
 
   utter_states:
-  - text: "State can be thought as a fixed situation at a given point of time and it may change by performing an action.For Example: In Tiger Problem the states are defined as :Tiger on the left and Tiger on the right. Go ahead and input your states in the following input box as comma separated"
+  - text: "State can be thought as a fixed situation at a given point of time and it may change by performing an action.For Example: In Tiger Problem the states are defined as :Tiger on the left and Tiger on the right. Go ahead and input your states in the specified input box as comma separated"
 
   utter_actions:
-  - text: "Action-Choices are real world entities that operate on states and when you perform a specific action, it may result in a state change which we call as Transition of the problem. For Example: In the Tiger Problem, actions are defined as : Open Left Door (OL),Open Right door (OR),and Listen growl (L). Go ahead and input your actions in the following input box as comma separated (For Example,OL,OR,L) and then click 'Done'"
-  
+  - text: "Action-Choices are real world entities that operate on states and when you perform a specific action, it may result in a state change which we call as Transition of the problem. For Example: In the Tiger Problem, actions are defined as : Open Left Door (OL),Open Right door (OR),and Listen growl (L). Go ahead and input your actions in the specified input box as comma separated (For Example,OL,OR,L) and then click 'Done'"
+
   utter_transitions:
-  - text: "Transition: can be thought of as a mathematical vector that has a direction and magnitude. Direction can be thought of as going from one state to another if you perform a specific action in one state. Example: In Tiger Problem, the transitions are defined as : Tiger on the left (TL) to Tiger on the right (TR): TL2TR if you perform action Open Left and Tiger on the right (TR):Open Left (OL), Listen (L), thus we observe that if the Tiger is on the left then the preferred action would be to open the right door and the next preferred action would be to listen. Go ahead and select your transitions from the following.(For Example:OL,L) and then click 'Done'"
-  
+  - text: "Transition: can be thought of as a mathematical vector that has a direction and magnitude. Direction can be thought of as going from one state to another if you perform a specific action in one state. Example: In Tiger Problem, the transitions are defined as : Tiger on the left (TL) to Tiger on the right (TR): TL2TR if you perform action Open Left and Tiger on the right (TR):Open Left (OL), Listen (L), thus we observe that if the Tiger is on the left then the preferred action would be to open the right door and the next preferred action would be to listen. Go ahead and select your transitions from the provided list by removing unnecessary transitions on clicking 'cross' button next to them.(For Example: Transition from Tiger on the left to Tiger on the right isn't possible on performing action-choice Listen) and then click 'Done'"
+
+  utter_chances:
+  - text:"Chance can be thought of a number in the range of 1 to 100 that suggests you the confidence in the transition to happen given you perform a specific action-choice. For example, in Tiger-problem, confidence that by choosing action-choice Open Left and transitioning from state Tiger Left to Tiger Right is 50%, meaning that I'm 50% confident that tiger would be on right if I open the left door, given the tiger is on left. "
+
+  utter_observations:
+  - text: "Observation Variable is defined as a probable fact that informs you about possible state(s) of your problem by choosing to perform action-choice(s) which update such information.In tiger problem, growl from right is one of the observation variables which is associated with state 'tiger on right' which is updated by choosing to perform action-choice Listen.   "
+
+
   utter_affirm:
   - text: "Good"
   - text: "Perfect"
-  
+
   utter_goodbye:
   - text:"Bye"
-  

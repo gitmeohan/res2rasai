@@ -8,6 +8,8 @@
     "intent_preferences",
     "intent_transitions",
     "intent_symmetry",
+    "intent_chances",
+    "intent_observations",
     "intent_affirm",
     "intent_goodbye",
     "prev_action_listen",
@@ -20,6 +22,8 @@
     "prev_utter_preferences",
     "prev_utter_transitions",
     "prev_utter_symmetry",
+    "prev_utter_chances",
+    "prev_utter_observations",
     "prev_utter_affirm",
     "prev_utter_goodbye"
   ]

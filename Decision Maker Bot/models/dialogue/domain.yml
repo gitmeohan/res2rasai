@@ -8,6 +8,8 @@ action_names:
 - utter_preferences
 - utter_transitions
 - utter_symmetry
+- utter_chances
+- utter_observations
 - utter_affirm
 - utter_goodbye
 actions:
@@ -19,6 +21,8 @@ actions:
 - utter_preferences
 - utter_transitions
 - utter_symmetry
+- utter_chances
+- utter_observations
 - utter_affirm
 - utter_goodbye
 config:
@@ -33,6 +37,8 @@ intents:
 - preferences
 - transitions
 - symmetry
+- chances
+- observations
 - affirm
 - goodbye
 slots: {}
@@ -42,11 +48,18 @@ templates:
       you perform a specific action, it may result in a state change which we call
       as Transition of the problem. For Example: In the Tiger Problem, actions are
       defined as : Open Left Door (OL),Open Right door (OR),and Listen growl (L).
-      Go ahead and input your actions in the following input box as comma separated
+      Go ahead and input your actions in the specified input box as comma separated
       (For Example,OL,OR,L) and then click ''Done'''
   utter_affirm:
   - text: Good
   - text: Perfect
+  utter_chances:
+  - text: text:"Chance can be thought of a number in the range of 1 to 100 that suggests
+      you the confidence in the transition to happen given you perform a specific
+      action-choice. For example, in Tiger-problem, confidence that by choosing action-choice
+      Open Left and transitioning from state Tiger Left to Tiger Right is 50%, meaning
+      that I'm 50% confident that tiger would be on right if I open the left door,
+      given the tiger is on left. "
   utter_goodbye:
   - text: text:"Bye"
   utter_greet:
@@ -54,6 +67,12 @@ templates:
   utter_ideology:
   - text: 'I can suggest a rational strategy for your decision problem that humans
       fail to take the right decision most of the times by thinking '
+  utter_observations:
+  - text: 'Observation Variable is defined as a probable fact that informs you about
+      possible state(s) of your problem by choosing to perform action-choice(s) which
+      update such information.In tiger problem, growl from right is one of the observation
+      variables which is associated with state ''tiger on right'' which is updated
+      by choosing to perform action-choice Listen.   '
   utter_preferences:
   - text: 'Preference is a set of choices of actions for each state where the first
       action in the preference set has the highest or equal priority over the next
@@ -62,14 +81,14 @@ templates:
       the preferences are defined as : Tiger on the left (TL): Open Right (OR),Listen
       (L) and Tiger on the right (TR):Open Left (OL), Listen (L), thus we observe
       that if the Tiger is on the left then the preferred action would be to open
-      the right door and the next preferred action would be to listen. Go ahead and
-      input your preferences in the following input box as comma separated (For Example,OL,L)
+      the right door and the next preferred action would be to listen. Enter your
+      preferences in the specified input box as comma separated (For Example- OL,L)
       and then click ''Done'''
   utter_states:
   - text: 'State can be thought as a fixed situation at a given point of time and
       it may change by performing an action.For Example: In Tiger Problem the states
       are defined as :Tiger on the left and Tiger on the right. Go ahead and input
-      your states in the following input box as comma separated'
+      your states in the specified input box as comma separated'
   utter_symmetry:
   - text: Symmetric Action-Choice are those actions that have an identical effect
       on the states of the problem.
@@ -90,6 +109,8 @@ templates:
       TL2TR if you perform action Open Left and Tiger on the right (TR):Open Left
       (OL), Listen (L), thus we observe that if the Tiger is on the left then the
       preferred action would be to open the right door and the next preferred action
-      would be to listen. Go ahead and select your transitions from the following.(For
-      Example:OL,L) and then click ''Done'''
+      would be to listen. Go ahead and select your transitions from the provided list
+      by removing unnecessary transitions on clicking ''cross'' button next to them.(For
+      Example: Transition from Tiger on the left to Tiger on the right isn''t possible
+      on performing action-choice Listen) and then click ''Done'''
 topics: []
