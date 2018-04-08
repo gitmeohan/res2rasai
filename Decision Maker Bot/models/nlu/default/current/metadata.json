@@ -15,6 +15,6 @@
     "entity_extractor_crf": null,
     "entity_synonyms": null,
     "intent_classifier_sklearn": "intent_classifier.pkl",
-    "trained_at": "20180325-220400",
+    "trained_at": "20180406-142715",
     "rasa_nlu_version": "0.12.0a1"
 }

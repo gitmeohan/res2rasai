@@ -74,7 +74,7 @@
 - tell me what is symmetry?
 - what to expect as a symmetry?
 
-## intent:utter_chances
+## intent:chances
 - what is a chance?
 - chances
 - What do you mean by chance of transition?
@@ -82,13 +82,14 @@
 - How should I interpret chances
 - What is the range of chance?
 
-##intent:utter_observations
+##intent:observations
 - what is an observation?
 - what are observations?
 - observations
 - what do you mean by an observation?
 - how do you get observation variables?
 - observation-variables
+
 
 ## intent:affirm
 - ok

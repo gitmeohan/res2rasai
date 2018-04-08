@@ -54,12 +54,12 @@ templates:
   - text: Good
   - text: Perfect
   utter_chances:
-  - text: text:"Chance can be thought of a number in the range of 1 to 100 that suggests
-      you the confidence in the transition to happen given you perform a specific
-      action-choice. For example, in Tiger-problem, confidence that by choosing action-choice
-      Open Left and transitioning from state Tiger Left to Tiger Right is 50%, meaning
-      that I'm 50% confident that tiger would be on right if I open the left door,
-      given the tiger is on left. "
+  - text: text:"Chance can be thought of as a number in the range of 1 to 100 that
+      captures your confidence in the transition happening, given that you perform
+      a specific action-choice. For example, in Tiger-problem, confidence that by
+      choosing action-choice Open Left and transitioning from state Tiger Left to
+      Tiger Right is 50%, meaning that I'm 50% confident that tiger would be on right
+      if I open the left door, given the tiger is on left. "
   utter_goodbye:
   - text: text:"Bye"
   utter_greet:
@@ -68,11 +68,10 @@ templates:
   - text: 'I can suggest a rational strategy for your decision problem that humans
       fail to take the right decision most of the times by thinking '
   utter_observations:
-  - text: 'Observation Variable is defined as a probable fact that informs you about
-      possible state(s) of your problem by choosing to perform action-choice(s) which
-      update such information.In tiger problem, growl from right is one of the observation
-      variables which is associated with state ''tiger on right'' which is updated
-      by choosing to perform action-choice Listen.   '
+  - text: Your observations inform you about the possible state of the problem on
+      performing actions that lead to the observation. In tiger problem, growl from
+      right is one of the observation variables which is associated with state 'tiger
+      on right' which is updated by choosing to perform action-choice Listen.
   utter_preferences:
   - text: 'Preference is a set of choices of actions for each state where the first
       action in the preference set has the highest or equal priority over the next

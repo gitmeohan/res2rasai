@@ -55,10 +55,10 @@ templates:
   - text: "Transition: can be thought of as a mathematical vector that has a direction and magnitude. Direction can be thought of as going from one state to another if you perform a specific action in one state. Example: In Tiger Problem, the transitions are defined as : Tiger on the left (TL) to Tiger on the right (TR): TL2TR if you perform action Open Left and Tiger on the right (TR):Open Left (OL), Listen (L), thus we observe that if the Tiger is on the left then the preferred action would be to open the right door and the next preferred action would be to listen. Go ahead and select your transitions from the provided list by removing unnecessary transitions on clicking 'cross' button next to them.(For Example: Transition from Tiger on the left to Tiger on the right isn't possible on performing action-choice Listen) and then click 'Done'"
 
   utter_chances:
-  - text:"Chance can be thought of a number in the range of 1 to 100 that suggests you the confidence in the transition to happen given you perform a specific action-choice. For example, in Tiger-problem, confidence that by choosing action-choice Open Left and transitioning from state Tiger Left to Tiger Right is 50%, meaning that I'm 50% confident that tiger would be on right if I open the left door, given the tiger is on left. "
+  - text:"Chance can be thought of as a number in the range of 1 to 100 that captures your confidence in the transition happening, given that you perform a specific action-choice. For example, in Tiger-problem, confidence that by choosing action-choice Open Left and transitioning from state Tiger Left to Tiger Right is 50%, meaning that I'm 50% confident that tiger would be on right if I open the left door, given the tiger is on left. "
 
   utter_observations:
-  - text: "Observation Variable is defined as a probable fact that informs you about possible state(s) of your problem by choosing to perform action-choice(s) which update such information.In tiger problem, growl from right is one of the observation variables which is associated with state 'tiger on right' which is updated by choosing to perform action-choice Listen.   "
+  - text: "Your observations inform you about the possible state of the problem on performing actions that lead to the observation. In tiger problem, growl from right is one of the observation variables which is associated with state 'tiger on right' which is updated by choosing to perform action-choice Listen."
 
 
   utter_affirm:
