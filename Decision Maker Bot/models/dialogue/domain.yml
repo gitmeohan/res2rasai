@@ -1,4 +1,4 @@
-action_factory: remote
+action_factory: null
 action_names:
 - utter_greet
 - utter_ideology
@@ -6,6 +6,7 @@ action_names:
 - utter_states
 - utter_actions
 - utter_preferences
+- utter_preferences_example
 - utter_transitions
 - utter_symmetry
 - utter_affirm
@@ -17,6 +18,7 @@ actions:
 - utter_states
 - utter_actions
 - utter_preferences
+- utter_preferences_example
 - utter_transitions
 - utter_symmetry
 - utter_affirm
@@ -38,38 +40,42 @@ intents:
 slots: {}
 templates:
   utter_actions:
-  - text: 'Action-Choices are real world entities that operate on states and when
-      you perform a specific action, it may result in a state change which we call
-      as Transition of the problem. For Example: In the Tiger Problem, actions are
-      defined as : Open Left Door (OL),Open Right door (OR),and Listen growl (L).
-      Go ahead and input your actions in the following input box as comma separated
-      (For Example,OL,OR,L) and then click ''Done'''
+  - text: 'Decision choices are usually actions that are available to you. They operate
+      on states, and when you perform some action, it may result in a state change,
+      which we will call as a transition of the state. For Example: In the Tiger Problem,
+      the decision choices are open the left door (OL), open the right door (OR),
+      and listen for growls (L); the first two impact the location of the Tiger. Go
+      ahead and enter all your choices as comma-separated labels (for example, OL,
+      OR, L).'
   utter_affirm:
   - text: Good
   - text: Perfect
   utter_goodbye:
   - text: text:"Bye"
   utter_greet:
-  - text: Hey! How are you?
+  - text: Hello! How may I help you today?
   utter_ideology:
-  - text: 'I can suggest a rational strategy for your decision problem that humans
-      fail to take the right decision most of the times by thinking '
+  - text: 'I can suggest a rational strategy for your decision problem. '
   utter_preferences:
-  - text: 'Preference is a set of choices of actions for each state where the first
-      action in the preference set has the highest or equal priority over the next
-      action. There needs to be at least one preferred action to each state and any
-      state need not have all actions in it''s preference set. Example: In Tiger Problem,
-      the preferences are defined as : Tiger on the left (TL): Open Right (OR),Listen
-      (L) and Tiger on the right (TR):Open Left (OL), Listen (L), thus we observe
-      that if the Tiger is on the left then the preferred action would be to open
-      the right door and the next preferred action would be to listen. Go ahead and
-      input your preferences in the following input box as comma separated (For Example,OL,L)
-      and then click ''Done'''
+  - text: A preference is an ordered list of decision choices for each state. You
+      prefer performing the first decision in the preference set over the next at
+      that state. Obviously, there should be at least one preferred decision in each
+      state and a state need not have all choices listed in its preference set. If
+      you are indifferent between some choices, then just list those in any order.Go
+      ahead and enter your preferences as a comma-separated list for each state (For
+      example, OL, L).
+  utter_preferences_example:
+  - text: 'For example, in the Tiger Problem, the preferences are defined for Tiger
+      on the left (TL) as Open the right door (OR), Listen (L), and for Tiger on the
+      right (TR) as Open the left door (OL), Listen (L). Thus, we observe that if
+      the Tiger is behind the left door, then the preferred action would be to open
+      the right door and the next preferred action would be to listen. '
   utter_states:
-  - text: 'State can be thought as a fixed situation at a given point of time and
-      it may change by performing an action.For Example: In Tiger Problem the states
-      are defined as :Tiger on the left and Tiger on the right. Go ahead and input
-      your states in the following input box as comma separated'
+  - text: 'A state of your problem can be thought of as a fixed situation at a given
+      point of time and it may change by performing an action. For example: In the
+      Tiger Problem the states are the Tiger is behind the left door (TL) and Tiger
+      is behind the right door (TR). Go ahead and list all your states as comma-separated
+      labels.'
   utter_symmetry:
   - text: Symmetric Action-Choice are those actions that have an identical effect
       on the states of the problem.

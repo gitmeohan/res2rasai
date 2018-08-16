@@ -18,6 +18,7 @@
     "prev_utter_states",
     "prev_utter_actions",
     "prev_utter_preferences",
+    "prev_utter_preferences_example",
     "prev_utter_transitions",
     "prev_utter_symmetry",
     "prev_utter_affirm",

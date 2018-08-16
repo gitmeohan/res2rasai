@@ -36,6 +36,14 @@
 * affirm
   - utter_affirm
   
+## Know Preference Example
+* preferences
+  - utter_preferences
+* example
+  - utter_preferences_example
+* affird
+  - utter_affirm
+  
 ## Preference
 * preferences
   - utter_preferences

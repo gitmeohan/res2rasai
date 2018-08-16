@@ -238,6 +238,34 @@
         "text": "what to expect as a symmetry?"
       },
       {
+        "intent": "example",
+        "text": "Explain"
+      },
+      {
+        "intent": "example",
+        "text": "Elaborate"
+      },
+      {
+        "intent": "example",
+        "text": "Please give me an example"
+      },
+      {
+        "intent": "example",
+        "text": "Can you give me an example?"
+      },
+      {
+        "intent": "example",
+        "text": "Example"
+      },
+      {
+        "intent": "example",
+        "text": "I couldn't understand"
+      },
+      {
+        "intent": "example",
+        "text": "unable to understand"
+      },
+      {
         "intent": "affirm",
         "text": "ok"
       },

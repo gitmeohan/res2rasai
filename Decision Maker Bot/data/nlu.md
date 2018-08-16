@@ -74,6 +74,15 @@
 - tell me what is symmetry?
 - what to expect as a symmetry?
 
+## intent:example
+- Explain
+- Elaborate
+- Please give me an example
+- Can you give me an example?
+- Example
+- I couldn't understand
+- unable to understand
+
 ## intent:affirm
 - ok
 - got it
