@@ -6,19 +6,31 @@ intents:
   - actions
   - preferences
   - transitions
+  - observations
+  - chances
   - symmetry
   - affirm
+  - deny
   - goodbye
-  
+ 
+action_factory: remote
+
 actions:
 - utter_greet
 - utter_ideology
 - utter_tiger_problem
 - utter_states
+- utter_states_example
 - utter_actions
+- utter_actions_example
 - utter_preferences
 - utter_preferences_example
 - utter_transitions
+- utter_transitions_example
+- utter_observations
+- utter_observations_example
+- utter_chances
+- utter_chances_example
 - utter_symmetry
 - utter_affirm
 - utter_goodbye
@@ -26,35 +38,59 @@ actions:
 templates:
 
   utter_preferences:
-  - text: "A preference is an ordered list of decision choices for each state. You prefer performing the first decision in the preference set over the next at that state. Obviously, there should be at least one preferred decision in each state and a state need not have all choices listed in its preference set. If you are indifferent between some choices, then just list those in any order.Go ahead and enter your preferences as a comma-separated list for each state (For example, OL, L)."
+  - text: "A preference is an ordered list of decision choices for each state. You prefer performing the first decision in the preference set over the next at that state. Obviously, there should be at least one preferred decision in each state and a state need not have all choices listed in its preference set. If you are indifferent between some choices, then just list those in any order. Do you want an example?"
   
   utter_preferences_example:
-  - text: "For example, in the Tiger Problem, the preferences are defined for Tiger on the left (TL) as Open the right door (OR), Listen (L), and for Tiger on the right (TR) as Open the left door (OL), Listen (L). Thus, we observe that if the Tiger is behind the left door, then the preferred action would be to open the right door and the next preferred action would be to listen. "
+  - text: "For example, in the Tiger Problem, the preferences are defined for Tiger on the left (TL) as Open the right door (OR), Listen (L), and for Tiger on the right (TR) as Open the left door (OL), Listen (L). Thus, we observe that if the Tiger is behind the left door, then the preferred action would be to open the right door and the next preferred action would be to listen. Go ahead and enter your preferences as a comma-separated list for each state (For example, OL, L)."
   
   utter_symmetry:
-  - text: "Symmetric Action-Choice are those actions that have an identical effect on the states of the problem."
+  - text: "Symmetry of Action-Choices is a simplification of Transitions that have identical effect in the state space."
   
   utter_greet:
-  - text: "Hello! How may I help you today?"
+  - text: "Hello there, my name is Rae. How may I help you today?"
   
   utter_ideology:
-  - text: "I can suggest a rational strategy for your decision problem. "
+  - text: "I can suggest a rational strategy for your decision problem."
 
   utter_tiger_problem:
-  - text: "Imagine you are standing in front of two closed doors. Behind one of the doors is a tiger and behind the other is a large reward. If you open the door with the tiger, then a large penalty is received (presumably in the form of some amount of bodily injury). Instead of opening one of the two doors, you can listen, in order to gain some information about the location of the tiger. Unfortunately, listening is not free; in addition, it is also not entirely accurate. There is a chance that you will hear a tiger behind the left-hand door when the tiger is really behind the right-hand door, and vice versa"
+  - text: "Imagine you are standing in front of two closed doors. Behind one of the doors is a tiger and behind the other is a large reward. If you open the door with the tiger, then a large penalty is received (presumably in the form of some amount of bodily injury). Instead of opening one of the two doors, you can listen, in order to gain some information about the location of the tiger. Unfortunately, listening is not free; in addition, it is also not entirely accurate. There is a chance that you will hear a tiger behind the left-hand door when the tiger is really behind the right-hand door, and vice versa."
 
   utter_states:
-  - text: "A state of your problem can be thought of as a fixed situation at a given point of time and it may change by performing an action. For example: In the Tiger Problem the states are the Tiger is behind the left door (TL) and Tiger is behind the right door (TR). Go ahead and list all your states as comma-separated labels."
+  - text: "A state of your problem can be thought of as a fixed situation at a given point of time and it may change by performing an action. Do you want an example?"
+  
+  utter_states_example:
+  - text: "For example: In the Tiger Problem the states are the Tiger is behind the left door (TL) and Tiger is behind the right door (TR). Go ahead and list all your states as comma-separated labels."
 
   utter_actions:
-  - text: "Decision choices are usually actions that are available to you. They operate on states, and when you perform some action, it may result in a state change, which we will call as a transition of the state. For Example: In the Tiger Problem, the decision choices are open the left door (OL), open the right door (OR), and listen for growls (L); the first two impact the location of the Tiger. Go ahead and enter all your choices as comma-separated labels (for example, OL, OR, L)."
+  - text: "Decision choices are usually actions that are available to you. They operate on states, and when you perform some action, it may result in a state change, which we will call as a transition of the state. Do you want an example?"
+  
+  utter_actions_example:
+  - text: "For Example: In the Tiger Problem, the decision choices are open the left door (OL), open the right door (OR), and listen for growls (L). First two impact the location of the Tiger. Go ahead and enter all your choices as comma-separated labels. For example (OL, OR, L)."
   
   utter_transitions:
-  - text: "Transition: can be thought of as a mathematical vector that has a direction and magnitude. Direction can be thought of as going from one state to another if you perform a specific action in one state. Example: In Tiger Problem, the transitions are defined as : Tiger on the left (TL) to Tiger on the right (TR): TL2TR if you perform action Open Left and Tiger on the right (TR):Open Left (OL), Listen (L), thus we observe that if the Tiger is on the left then the preferred action would be to open the right door and the next preferred action would be to listen. Go ahead and select your transitions from the following.(For Example:OL,L) and then click 'Done'"
+  - text: "A transition is a mathematical vector that has a direction and magnitude. The direction can be seen as your decision problem moving from one state to another if you perform a specific action in that state. Do you want an example?"
+  
+  utter_transitions_example:
+  - text: "For example: In the Tiger Problem, state Tiger on the left (TL) transitions to Tiger on the right (TR) on performing the action Open Left. Go ahead and select all your state transitions."
+  
+  utter_observations:
+  - text: "Your observations inform you about the possible state of the problem. In many cases, your observations are the result of performing some action. Do you want an example?"
+  
+  utter_observations_example:
+  - text: "For example, in the Tiger problem, a growl heard from the right on listening is an observation, which reveals that the tiger is likely to be on the right."
+  
+  utter_chances:
+  - text: "The chance is the magnitude of the vector. It is a number in the range of 1 to 100 that captures your confidence in the transition happening, given that you choose the specific decision choice. Do you want an example?"
+  
+  utter_chances_example:
+  - text: "For example, in the Tiger-problem, the confidence that on opening the left door, the Tiger transitions from being behind the left door to behind the right door is 50%. In other words, I am 50% confident that the Tiger would be on the right given that I open the left door and that the tiger is on the left."
   
   utter_affirm:
-  - text: "Good"
-  - text: "Perfect"
+  - text: "Ok"
+  
+    utter_deny:
+  - text: "No"
+  - text: "ok"
   
   utter_goodbye:
   - text:"Bye"

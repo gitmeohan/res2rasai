@@ -218,6 +218,54 @@
         "text": "what to enter as a transition?"
       },
       {
+        "intent": "observations",
+        "text": "what is an observation?"
+      },
+      {
+        "intent": "observations",
+        "text": "observations"
+      },
+      {
+        "intent": "observations",
+        "text": "what do you mean by an observation?"
+      },
+      {
+        "intent": "observations",
+        "text": "what do you mean by an observation?"
+      },
+      {
+        "intent": "observations",
+        "text": "tell me what is an observation?"
+      },
+      {
+        "intent": "observations",
+        "text": "what to enter as an observation?"
+      },
+      {
+        "intent": "chances",
+        "text": "what is a chance?"
+      },
+      {
+        "intent": "chances",
+        "text": "what are chances?"
+      },
+      {
+        "intent": "chances",
+        "text": "chances"
+      },
+      {
+        "intent": "chances",
+        "text": "what do you mean by a chance?"
+      },
+      {
+        "intent": "chances",
+        "text": "tell me what is chance?"
+      },
+      {
+        "intent": "chances",
+        "text": "what to expect as a chance?"
+      },
+      {
         "intent": "symmetry",
         "text": "what is a symmetry?"
       },
@@ -238,32 +286,8 @@
         "text": "what to expect as a symmetry?"
       },
       {
-        "intent": "example",
-        "text": "Explain"
-      },
-      {
-        "intent": "example",
-        "text": "Elaborate"
-      },
-      {
-        "intent": "example",
-        "text": "Please give me an example"
-      },
-      {
-        "intent": "example",
-        "text": "Can you give me an example?"
-      },
-      {
-        "intent": "example",
-        "text": "Example"
-      },
-      {
-        "intent": "example",
-        "text": "I couldn't understand"
-      },
-      {
-        "intent": "example",
-        "text": "unable to understand"
+        "intent": "affirm",
+        "text": "yes"
       },
       {
         "intent": "affirm",
@@ -304,6 +328,50 @@
       {
         "intent": "affirm",
         "text": "this is nice"
+      },
+      {
+        "intent": "affirm",
+        "text": "sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "give me an example"
+      },
+      {
+        "intent": "affirm",
+        "text": "will be good"
+      },
+      {
+        "intent": "affirm",
+        "text": "Will be better"
+      },
+      {
+        "intent": "deny",
+        "text": "No"
+      },
+      {
+        "intent": "deny",
+        "text": "Nope"
+      },
+      {
+        "intent": "deny",
+        "text": "No, I don't want any example"
+      },
+      {
+        "intent": "deny",
+        "text": "Understood"
+      },
+      {
+        "intent": "deny",
+        "text": "No thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "No thank you"
+      },
+      {
+        "intent": "deny",
+        "text": "thank you"
       }
     ],
     "regex_features": [],

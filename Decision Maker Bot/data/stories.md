@@ -1,88 +1,111 @@
-## Wake up               <!-- name of the story - just for debugging -->
-* greet              
+## Greet
+* greet
   - utter_greet
-* affirm
-  - utter_affirm
 
-## Know Ideology               <!-- this is already the start of the next story -->
+## Ideology
 * ideology
-  - utter_ideology             <!-- action of the bot to execute -->
-* affirm
-  - utter_affirm
-  
-## Know State
-* states
-  - utter_states
-* affirm
-  - utter_affirm
-  
-## State
+  - utter_ideology
+
+## Goodbye
+* goodbye
+- utter_goodbye
+
+## States
 * states
   - utter_states
 
-## Know Action
-* actions
-  - utter_actions
+## states example
+* states
+  - utter_states
 * affirm
+  - utter_states_example
+
+## states deny example
+* states
+  - utter_states
+* deny
   - utter_affirm
   
-## Action
+## Actions
 * actions
   - utter_actions
 
-## Know Preference
+## actions example
+* actions
+  - utter_actions
+* affirm
+  - utter_actions_example
+
+## actions deny example
+* actions
+  - utter_actions
+* deny
+  - utter_affirm
+
+## Preferences
+* preferences
+  - utter_preferences
+
+## preferences example
 * preferences
   - utter_preferences
 * affirm
-  - utter_affirm
-  
-## Know Preference Example
-* preferences
-  - utter_preferences
-* example
   - utter_preferences_example
-* affird
-  - utter_affirm
-  
-## Preference
+
+## preferences deny example
 * preferences
   - utter_preferences
-  
-## Know Transition
-* transitions
-  - utter_transitions
-* affirm
+* deny
   - utter_affirm
   
 ## Transitions
 * transitions
   - utter_transitions
 
-## Know Tiger Problem
-* tiger_problem
-  - utter_tiger_problem
-* affirm
-  - utter_affirm
-  
-## Tiger Problem
-* tiger_problem
-  - utter_tiger_problem
-
-  
-## Know Symmetry
-* symmetry
+## transitions example
+* transitions
   - utter_transitions
 * affirm
+  - utter_transitions_example
+
+## transitions deny example
+* transitions
+  - utter_transitions
+* deny
+  - utter_affirm
+
+## Chances
+* chances
+  - utter_chances
+
+## chances example
+* chances
+  - utter_chances
+* affirm
+  - utter_chances_example
+
+## chances deny example
+* chances
+  - utter_chances
+* deny
   - utter_affirm
   
 ## Symmetry
 * symmetry
   - utter_symmetry
   
-## say goodbye
-* goodbye
-  - utter_goodbye
-  
-## Affirm consent
+##Observations
+* observations
+  - utter_observations
+
+## observations example
+* observations
+  - utter_observations
 * affirm
+  - utter_observations_example
+
+## observations deny example
+* observations
+  - utter_observations
+* deny
   - utter_affirm

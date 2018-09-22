@@ -31,6 +31,7 @@
 - Who are you?
 - What do you do?
 - How do you do?
+
 ## intent:tiger_problem
 - what is tiger problem?
 - tiger problem
@@ -67,6 +68,22 @@
 - tell me what is a transition?
 - what to enter as a transition?
 
+## intent:observations
+- what is an observation?
+- observations
+- what do you mean by an observation?
+- what do you mean by an observation?
+- tell me what is an observation?
+- what to enter as an observation?
+
+## intent:chances
+- what is a chance?
+- what are chances?
+- chances
+- what do you mean by a chance?
+- tell me what is chance?
+- what to expect as a chance?
+
 ## intent:symmetry
 - what is a symmetry?
 - symmetries
@@ -74,16 +91,8 @@
 - tell me what is symmetry?
 - what to expect as a symmetry?
 
-## intent:example
-- Explain
-- Elaborate
-- Please give me an example
-- Can you give me an example?
-- Example
-- I couldn't understand
-- unable to understand
-
 ## intent:affirm
+- yes
 - ok
 - got it
 - thanks
@@ -94,3 +103,16 @@
 - good
 - I'm good
 - this is nice
+- sure
+- give me an example
+- will be good
+- Will be better
+
+## intent:deny
+- No
+- Nope
+- No, I don't want any example
+- Understood
+- No thanks
+- No thank you
+- thank you
