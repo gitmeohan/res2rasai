@@ -10,6 +10,10 @@
 * goodbye
 - utter_goodbye
 
+## Tiger Problem
+* tiger_problem
+  - utter_tiger_problem
+
 ## States
 * states
   - utter_states
@@ -94,7 +98,7 @@
 * symmetry
   - utter_symmetry
   
-##Observations
+## Observations
 * observations
   - utter_observations
 
